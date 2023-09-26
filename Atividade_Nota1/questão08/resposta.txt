@@ -1,0 +1,27 @@
+Bubble Sort (Ordenação por Bolha):
+O Bubble Sort é um algoritmo de ordenação simples que compara elementos adjacentes na lista e os troca se estiverem fora de ordem.
+O algoritmo percorre a lista várias vezes, comparando e trocando os elementos até que nenhum elemento precise ser trocado em uma passagem completa.
+É chamado de "Bubble Sort" porque os elementos menores "sobem" gradualmente para a parte superior da lista, assim como bolhas de ar sobem na água.
+
+Insertion Sort (Ordenação por Inserção):
+O Insertion Sort é um algoritmo de ordenação que constrói a lista ordenada um elemento por vez.
+Ele começa com um elemento na posição inicial e, em seguida, insere cada elemento subsequente na posição apropriada na lista ordenada.
+É eficaz para listas pequenas, mas não é tão eficiente para listas muito grandes, pois seu desempenho é quadrático.
+
+Selection Sort (Ordenação por Seleção):
+O Selection Sort divide a lista em duas partes: a parte ordenada e a parte não ordenada.
+Ele encontra o elemento mínimo na parte não ordenada e o coloca no início da parte ordenada.
+Esse processo é repetido até que toda a lista esteja ordenada.
+O Selection Sort também tem um desempenho quadrático e não é recomendado para grandes conjuntos de dados.
+
+Merge Sort (Ordenação por Intercalação):
+O Merge Sort é um algoritmo de ordenação dividir para conquistar. Ele divide a lista em metades menores até que cada sublista contenha apenas um elemento.
+Em seguida, mescla essas sublistas ordenadas em pares, combinando-as em ordem crescente.
+Esse processo de divisão e mesclagem é repetido até que toda a lista esteja ordenada.
+O Merge Sort é bem eficiente para grandes conjuntos de dados e possui um desempenho de tempo O(n log n).
+
+Quick Sort (Ordenação Rápida):
+O Quick Sort também é um algoritmo de ordenação dividir para conquistar.
+Ele escolhe um elemento pivot da lista e rearranja os elementos para que todos os elementos menores que o pivot estejam à esquerda e todos os elementos maiores estejam à direita.
+Em seguida, ele recursivamente ordena as sublistas à esquerda e à direita do pivot.
+O Quick Sort é geralmente mais rápido que o Merge Sort e tem um desempenho médio de tempo O(n log n), embora possa degradar para O(n^2) em casos raros.
